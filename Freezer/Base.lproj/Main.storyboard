@@ -63,42 +63,28 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1R-IF-XfN">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Go back!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="13p-3d-Rxf" secondAttribute="centerX" constant="-0.5" id="AXB-sd-CEX"/>
                             <constraint firstAttribute="centerY" secondItem="13p-3d-Rxf" secondAttribute="centerY" constant="171.5" id="CER-K1-8j9"/>
-                            <constraint firstAttribute="centerY" secondItem="p1R-IF-XfN" secondAttribute="centerY" constant="81" id="kuL-HK-REB"/>
-                            <constraint firstAttribute="centerX" secondItem="p1R-IF-XfN" secondAttribute="centerX" constant="-0.5" id="xFA-Ba-bOe"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="13p-3d-Rxf"/>
-                                <exclude reference="p1R-IF-XfN"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="AXB-sd-CEX"/>
                                 <exclude reference="CER-K1-8j9"/>
-                                <exclude reference="kuL-HK-REB"/>
-                                <exclude reference="xFA-Ba-bOe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="13p-3d-Rxf"/>
-                                <include reference="p1R-IF-XfN"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="AXB-sd-CEX"/>
                                 <include reference="CER-K1-8j9"/>
-                                <include reference="kuL-HK-REB"/>
-                                <include reference="xFA-Ba-bOe"/>
                             </mask>
                         </variation>
                     </view>
