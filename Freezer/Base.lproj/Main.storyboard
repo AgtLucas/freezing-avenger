@@ -67,6 +67,9 @@
                                 <state key="normal" title="Go back!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="hat-Yi-Hym"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -104,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCC-tj-2ze" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="616.5" y="1039"/>
+            <point key="canvasLocation" x="696" y="1210"/>
         </scene>
     </scenes>
 </document>
