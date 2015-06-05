@@ -24,9 +24,6 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="177" y="92" width="30" height="30"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="Lf6-yD-Dez" kind="presentation" id="9ZA-QR-7ev"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -93,24 +90,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCC-tj-2ze" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2044.5" y="906"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="jkB-B1-UWO">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lf6-yD-Dez" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6X7-x9-pPZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="sjt-Ho-6zD" kind="relationship" relationship="rootViewController" id="qWY-ZD-qG9"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NOf-AJ-lav" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1126.5" y="906"/>
         </scene>
     </scenes>
 </document>
